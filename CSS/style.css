@@ -1,21 +1,21 @@
 body {
-    background-color: #F4F1EA;
-    color: #2b2b2b;
-    font-family: Arial, sans-serif;
+    background-color: #bb9457;
+    color: #432818;
+    font-family: "poppins", Arial, sans-serif;
     margin: 0;
 }
 h1 {
-    color: #C4531A;
+    color: #3c1518;
     font-size: 30px;
 }
 h2 {
-    color: #14162b;
+    color: #3c1518;
 }
 a {
-    color: #C4531A;
+    color: #3c1518;
 }
 header {
-    background-color: #ffffff;
+    background-color: #99582a;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     margin-bottom: 32px;
 }
@@ -30,16 +30,16 @@ header {
 header p {
     margin: 0;
     font-size: 20px;
-    color: #C4531A;
+    color: #ffe6a7;
 }
 nav a {
     text-decoration: none;
-    color: #14162b;
+    color: #ffe6a7;
     margin-left: 20px;
     font-weight: bold;
 }
 nav a:hover {
-    color: #C4531A;
+    color: #69140E;
 }
 footer {
     text-align: center;
@@ -62,11 +62,15 @@ main {
     margin: auto;
 }
 .card {
-    background-color: #ffffff;
+    background-color: #f2f3ae;
     padding: 24px;
     margin-bottom: 24px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.card:hover{
+    transform: translateY(6px);
+    box-shadow: 0 10px 24px rgba(0.0, 0.0, 0.0, 0.25);
 }
 table {
     border-collapse: collapse;
@@ -75,14 +79,14 @@ table {
 caption {
     text-align: left;
     font-size: 20px;
-    color: #14162b;
+    color: #3c1518;
     margin-bottom: 12px;
 }
 th, td {
-    border: 1px solid #14162b;
+    border: 1px solid #3c1518;
     padding: 8px 16px;
     text-align: left;
 }
 th {
-    background-color: #ff8a4c;
+    background-color: #D58936;
 }
